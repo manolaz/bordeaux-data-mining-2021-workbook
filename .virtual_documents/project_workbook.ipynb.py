@@ -86,8 +86,12 @@ di.display_html("""
         <tr>
             <td colspan=5 class="cell"><a href='#DataInsights'>Exploration Data - Data Insights</a></td>
         </tr>
+         
         <tr>
             <td colspan=5 class="cell"><a href='#SummaryStatistics'>Exploration Data - Summary Statistics</a></td>
+        </tr>
+        <tr>
+            <td colspan=5 class="cell"><a href='#DataLoad'>Data Cleaning</a></td>
         </tr>
         <tr>
             <td colspan=5 class="cell"><a href='#DataVisualization'>Data Visualization</a></td>
@@ -151,6 +155,21 @@ df.LIMIT_BAL.unique()
 
 
 df.MARRIAGE.value_counts()
+
+
+# - This tells us count of each MARRIAGE score in descending order.
+# - "MARRIAGE" has most values concentrated in the categories 2, 1 .
+# - Only a few observations made for the categories 3 & 0 
+## DATA CLEANING
+### On the Dataset description , we don't have "MARRIAGE Status" = 0, so we need to clean up these values
+
+df = df.loc[df["MARRIAGE"].isin([1,2])]
+
+df
+
+
+
+# Data Visualization
 
 
 sns.heatmap(df.isnull(),cbar=False,yticklabels=False,cmap = 'viridis')

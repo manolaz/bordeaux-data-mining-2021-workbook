@@ -12,3 +12,8 @@ Our team has 3 members:
 - https://github.com/jakevdp/sklearn_tutorial/tree/master/notebooks
 - https://www.kaggle.com/sgus1318/wine-quality-exploration-and-analysis
 - https://github.com/irenebenedetto/default-of-credit-card-clients/blob/master/run.ipynb
+
+
+### COLAB notebook
+
+https://colab.research.google.com/drive/1ilCX92yfT9YpRBSp4NXjORB8JB-KEQYp

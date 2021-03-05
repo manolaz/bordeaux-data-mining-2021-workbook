@@ -16,4 +16,7 @@ Our team has 3 members:
 
 ### COLAB notebook
 
-https://colab.research.google.com/drive/1ilCX92yfT9YpRBSp4NXjORB8JB-KEQYp
+well maintained version of [Notebook](https://colab.research.google.com/drive/1ilCX92yfT9YpRBSp4NXjORB8JB-KEQYp)
+(project_workbook.ipynb) on
+
+(https://colab.research.google.com/drive/1ilCX92yfT9YpRBSp4NXjORB8JB-KEQYp)
